@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-3</title>
+     
+</head>
+<body>
+
+<h1>Conference Timetable</h1>
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Room 101</th>
+            <th>Room 102</th>
+            <th>Room 103</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>9:00 AM - 10:00 AM</td>
+            <td colspan="3" style="background-color: azure;" title="Dr. Smith: Opening Keynote - The Future of Technology">
+                Opening Keynote: The Future of Technology
+            </td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 12:00 AM</td>
+            <td  style="background-color: bisque;" title="Pravin Rathod: Hands-on Python Workshop">Python Workshop</td>
+            <td   style="background-color: bisque;" title="Jane Dixit: Building Mobile Apps with Flutter">Flutter Workshop</td>
+            <td rowspan="2"  style="background-color: rgb(150, 187, 70);" title="Panel Discussion: Industry Experts Discuss Innovations">
+                Panel Discussion: Innovations in Tech
+            </td>
+        </tr>
+        <tr>
+            <td>12:00 PM - 1:00 PM</td>
+            <td colspan="2"  style="background-color: darkgrey;" title="Lunch Break">Lunch Break</td>
+        </tr>
+        <tr>
+            <td>1:15 PM - 2:15 PM</td>
+            <td style="background-color: bisque;" title="Alex Noel: Intro to Cloud Computing">Cloud Computing Basics</td>
+            <td  style="background-color: bisque;" title="Amutha S: Advanced AI Techniques">Advanced AI Workshop</td>
+            <td  style="background-color: bisque;" title="Ram Negi: Cybersecurity in Modern Tech">Cybersecurity Essentials</td>
+        </tr>
+        <tr>
+            <td>2:30 PM - 4:00 PM</td>
+            <td colspan="3" class="keynote" title="Dr. Emily Smith: Closing Keynote - The Ethical Tech Era">
+                Closing Keynote: The Ethical Tech Era
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div>
+    <h3>Legend</h3>
+    <p>
+        <span style="background-color: azure;">Keynote</span><br>
+        <span style="background-color: bisque;">Workshop</span> <br>
+        <span style="background-color: rgb(150, 187, 70);">Panel Discussion</span> <br>
+        <span style="background-color: darkgrey;">Break</span> 
+    </p>
+</div>
+
+</body>
+</html>
