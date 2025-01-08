@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .top-team {
+            background-color: #d4edda; /* Light green for top 3 teams */
+            font-weight: bold;
+        }
+        tfoot td {
+            font-weight: bold;
+            background-color: #f8f9fa; /* Light grey for footer */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Sports Tournament League Table</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Team Name</th>
+            <th>Matches Played</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Draws</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="top-team">
+            <td>Team A</td>
+            <td>10</td>
+            <td>8</td>
+            <td>1</td>
+            <td>1</td>
+            <td>25</td>
+        </tr>
+        <tr class="top-team">
+            <td>Team B</td>
+            <td>10</td>
+            <td>7</td>
+            <td>2</td>
+            <td>1</td>
+            <td>22</td>
+        </tr>
+        <tr class="top-team">
+            <td>Team C</td>
+            <td>10</td>
+            <td>6</td>
+            <td>3</td>
+            <td>1</td>
+            <td>19</td>
+        </tr>
+        
+        <tr>
+            <td>Team D</td>
+            <td>10</td>
+            <td>5</td>
+            <td>3</td>
+            <td>2</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>Team E</td>
+            <td>10</td>
+            <td>4</td>
+            <td>5</td>
+            <td>1</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>Team F</td>
+            <td>10</td>
+            <td>3</td>
+            <td>6</td>
+            <td>1</td>
+            <td>10</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="6">Total Matches Played by All Teams: 60</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
